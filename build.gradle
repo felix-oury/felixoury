@@ -1,7 +1,7 @@
 plugins {
     id 'java'
     id 'war' // To create a webapp jar file, ie a '.war' file
-    //id 'org.gretty' version '3.0.6' // This includes a jetty webserver
+    id 'org.gretty' version '3.0.6' // This includes a jetty webserver
 }
 
 version '1.0-SNAPSHOT'
