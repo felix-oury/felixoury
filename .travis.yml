@@ -12,6 +12,6 @@ directories:
   - $HOME/.gradle/wrapper/
 deploy:
   provider: heroku
-  api_key: 78dbf90b-70b0-4395-936b-e87e2b87c05b
+  api_key: 0342f388-5cf6-4e60-87c2-326b99da587c
   app: felixoury
-  skip_cleanup: 0342f388-5cf6-4e60-87c2-326b99da587c
+  skip_cleanup: true
