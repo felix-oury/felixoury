@@ -3,8 +3,8 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
         MyServlet client = new MyServlet();
-    client.GetMakeRequest();
-    //ok
+        client.GetMakeRequest();
+    //oko
     }
 }
 
