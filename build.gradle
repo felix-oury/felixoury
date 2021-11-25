@@ -1,12 +1,15 @@
 plugins {
     id 'java'
     id 'war' // To create a webapp jar file, ie a '.war' file
-   // id 'org.gretty' version '3.0.6' // This includes a jetty webserver
+    id 'application'
 }
 
 version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
+application { // Add this section
+    mainClassName='Main'
+}
 repositories {
     jcenter()
 }
